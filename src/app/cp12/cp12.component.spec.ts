@@ -1,22 +1,10 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {  Cp12Component } from './cp12.component';
 
-import { Cp12Component } from './cp12.component';
-
-describe('Cp12Component', () => {
-  let component: Cp12Component;
-  let fixture: ComponentFixture<Cp12Component>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ Cp12Component ]
-    })
-    .compileComponents();
-  });
+describe(' Cp12Component', () => {
+  let component:  Cp12Component;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Cp12Component);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    component = new  Cp12Component();
   });
 
   it('should create', () => {

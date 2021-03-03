@@ -1,22 +1,10 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {  Cp14Component } from './cp14.component';
 
-import { Cp14Component } from './cp14.component';
-
-describe('Cp14Component', () => {
-  let component: Cp14Component;
-  let fixture: ComponentFixture<Cp14Component>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ Cp14Component ]
-    })
-    .compileComponents();
-  });
+describe(' Cp14Component', () => {
+  let component:  Cp14Component;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Cp14Component);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    component = new  Cp14Component();
   });
 
   it('should create', () => {

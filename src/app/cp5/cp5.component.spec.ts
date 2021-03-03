@@ -1,22 +1,10 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {  Cp5Component } from './cp5.component';
 
-import { Cp5Component } from './cp5.component';
-
-describe('Cp5Component', () => {
-  let component: Cp5Component;
-  let fixture: ComponentFixture<Cp5Component>;
-
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ Cp5Component ]
-    })
-    .compileComponents();
-  });
+describe(' Cp3Component', () => {
+  let component:  Cp5Component;
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Cp5Component);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    component = new  Cp5Component();
   });
 
   it('should create', () => {
